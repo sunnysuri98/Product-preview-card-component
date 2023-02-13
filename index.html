@@ -10,20 +10,20 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
     <main>
       <div class="card">
-        <section class="left-section">
+        <div class="left-section">
           <img
             src="./images/image-product-desktop.jpg"
-            alt="Gabrielle Perfumer"
+            alt="A bottle of perfume surrounded by foliage"
           />
-        </section>
-        <section class="right-section">
+        </div>
+        <div class="right-section">
           <span>Perfume</span>
           <h1>
             Gabrielle Essence Eau <br />
@@ -34,14 +34,14 @@
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
           <div class="price">
-            <h2>$149.99</h2>
-            <h5>$169.99</h5>
+            <h2><span class="visually-hidden">Current Price</span>$149.99</h2>
+            <h5><span class="visually-hidden">Previous Price</span>$169.99</h5>
           </div>
 
           <button class="btn">
             <img src="./images/icon-cart.svg" alt="cart-icon" /> Add to Cart
           </button>
-        </section>
+        </div>
       </div>
     </main>
   </body>
